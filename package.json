@@ -1,0 +1,32 @@
+{
+  "name": "axe-cli",
+  "version": "0.0.1",
+  "description": "小石头的斧子宇宙之 axe-cli 脚手架",
+  "main": "index.js",
+  "bin": {
+    "axe-cli": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DFE-evernote/axe-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "xing.org1"
+  ],
+  "author": "xingorg1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DFE-evernote/axe-cli/issues"
+  },
+  "homepage": "https://github.com/DFE-evernote/axe-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.4.1",
+    "ejs": "^3.1.8",
+    "inquirer": "^8.2.5"
+  }
+}
